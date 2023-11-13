@@ -8,21 +8,12 @@ import workimage4 from '../../images/workimage4.png'
 const Work = () => {
   return (
     <div class="work-container">
-      <div class="work-item">
         <p>My work</p>
-      </div>
       <div class="work-item">
       <img src={workimage1} alt="" className="image1" />
       </div>
       <div class="work-item">
       <img src={workimage2} alt="" className="image2" />
-
-      </div>
-      <div class="work-item">
-        
-      </div>
-      <div class="work-item">
-
       </div>
       <div class="work-item">
       <img src={workimage3} alt="" className="image3" />
@@ -30,10 +21,6 @@ const Work = () => {
       </div>
       <div class="work-item">
       <img src={workimage4} alt="" className="image4" />
-
-      </div>
-      <div class="work-item">
-        
       </div>
     </div>
   )
