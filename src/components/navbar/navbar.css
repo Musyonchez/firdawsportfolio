@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100vw;
+    padding: 0;
+}
+
+.navbar-container ul li {
+    font-size: x-large;
+}
+
+.navbar-container ul li:first-child {
+    text-decoration: underline;
+}

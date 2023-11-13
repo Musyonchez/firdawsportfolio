@@ -1,0 +1,100 @@
+.header-container {
+    background-color: #161513;
+    height: 100vh;
+    color: #fff;
+}
+
+.header-content {
+    margin-top: 5vh;
+}
+
+.header-text {
+    position: absolute;
+    z-index: 5;
+    font-family: Inria Serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    margin: 10vh 0 0 10vw;
+}
+
+.header-text h2 {
+    margin: 0;
+    padding: 0;
+}
+    
+.header-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.header-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 0;
+}
+
+.header-image img {
+    position: relative;
+    height: 80vh;
+}
+
+@media screen and (max-width: 800px) {
+    .header-image {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .header-image img {
+        position: relative;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-text {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 115px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .header-text {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 115px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-text {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 115px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-text {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 115px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 115px;
+    }
+}
