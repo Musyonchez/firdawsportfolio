@@ -1,0 +1,146 @@
+.work-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    height: 200vh;
+    max-width: 2150px;
+    margin: 0 0 100px 0;
+    padding: 0;
+    right: 15%;
+  }
+  
+  .work-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .work-item img {
+    width: 40vw;
+    position: absolute;
+  }
+  
+  .image1 {
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .image2 {
+    top: -50%;
+    left: 50%;
+    z-index: 4;
+  }
+  
+  .image3 {
+    top: -50%;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .image4 {
+    top: -50%;
+    left: 50%;
+    z-index: 2;
+  }
+
+@media screen and (max-width: 2000px) {
+    .work-container {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .work-container {
+        height: 135vh;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .work-container {
+        height: 115vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .work-container {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .work-container {
+        height: 75vh;
+    }
+    .image1 {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .work-container {
+        height: 65vh;
+    }
+    .image1 {
+        top: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .work-container {
+        height: 52vh;
+    }
+    .image1 {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .work-container {
+        height: 40vh;
+    }
+    .image1 {
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .work-container {
+        height: 35vh;
+    }
+    .image1 {
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .work-container {
+        height: 30vh;
+    }
+    .image1 {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .work-container {
+        height: 25vh;
+    }
+    .image1 {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .work-container {
+        height: 20vh;
+    }
+    .image1 {
+        top: 70%;
+    }
+}
+
