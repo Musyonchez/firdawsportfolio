@@ -43,8 +43,21 @@
     border: none;
 }
 
-.footer-content button:last-child {
+.button1 {
+    background-color: mediumvioletred;
+}
+
+.button2 {
     margin: 0 0 0 10px;
+    background-color: #000;
+}
+
+.button1 a {
+    text-decoration: none;
+}
+
+.button2 a {
+    text-decoration: none;
 }
 
 .footer-image img {
