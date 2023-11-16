@@ -4,11 +4,28 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar-container'>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-      </ul>
+      <div className='navbar-buttons'>
+      <button onClick={() => {
+            const homeSection = document.getElementById('home');
+            homeSection.scrollIntoView({ behavior: 'smooth' });
+          }}>
+            Home
+          </button>
+
+          <button onClick={() => {
+            const aboutSection = document.getElementById('about');
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+          }}>
+            About
+          </button>
+
+          <button onClick={() => {
+            const workSection = document.getElementById('work');
+            workSection.scrollIntoView({ behavior: 'smooth' });
+          }}>
+            Work
+          </button>
+      </div>
     </div>
   )
 }
