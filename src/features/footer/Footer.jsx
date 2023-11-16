@@ -1,8 +1,8 @@
-import React from 'react'
-import './footer.css'
-import dribbleicon from '../../images/dribbbleicon.png'
-import instagramicon from '../../images/instagrramicon.png'
-import footerimage from '../../images/footerimage.png'
+import React from 'react';
+import './footer.css';
+import dribbleicon from '../../images/dribbbleicon.png';
+import instagramicon from '../../images/instagrramicon.png';
+import footerimage from '../../images/footerimage.png';
 
 const Footer = () => {
   return (
@@ -14,25 +14,29 @@ const Footer = () => {
           <p>
             Follow me for <br/> more
           </p>
-          <button>
+          <button className='button1'>
+            <a href="https://dribbble.com/emon_pixels" target="_blank" rel="noopener noreferrer">
               <img src={dribbleicon} alt="" />
               <p>
-              dribbble.com/ <br/> emon_pixels
+                dribbble.com/ <br/> emon_pixels
               </p>
+            </a>
           </button>
-          <button>  
+          <button className='button2'>
+            <a href="https://instagram.com/emon.pixels/" target="_blank" rel="noopener noreferrer">
               <img src={instagramicon} alt="" />
               <p>
-              Instagram.com/ <br/> emon.pixels/
+                Instagram.com/ <br/> emon.pixels/
               </p>
+            </a>
           </button>
         </div>
-        </div>
-        <div className='footer-image'>
-          <img src={footerimage} alt="" />
-        </div>
+      </div>
+      <div className='footer-image'>
+        <img src={footerimage} alt="" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
