@@ -45,11 +45,13 @@
 
 .button1 {
     background-color: mediumvioletred;
+    color: #fff;
 }
 
 .button2 {
     margin: 0 0 0 10px;
     background-color: #000;
+    color: #fff;
 }
 
 .button1 a {
