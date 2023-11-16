@@ -5,7 +5,7 @@ import heroimage from '../../images/heroimage.png'
 
 const Header = () => {
   return (
-    <div className='header-container' id='about'>
+    <div className='header-container' id='home'>
         <Navbar />
         <div className='header-content'>
           <div className='header-text'>
