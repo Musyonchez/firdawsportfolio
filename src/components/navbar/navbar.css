@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.navbar-container ul {
+.navbar-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -14,10 +14,15 @@
     padding: 0;
 }
 
-.navbar-container ul li {
+.navbar-buttons button {
     font-size: x-large;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
 }
 
-.navbar-container ul li:first-child {
+.navbar-buttons button:first-child {
     text-decoration: underline;
 }
