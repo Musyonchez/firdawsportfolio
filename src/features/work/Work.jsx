@@ -7,7 +7,7 @@ import workimage4 from '../../images/workimage4.png'
 
 const Work = () => {
   return (
-    <div class="work-container">
+    <div class="work-container" id='work'>
         <p>My work</p>
       <div class="work-item">
       <img src={workimage1} alt="" className="image1" />
